@@ -1,0 +1,33 @@
+.divLi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+
+    div{
+        display: flex;
+        height: 100%;
+        gap: 1rem;
+
+        img{
+            height: 100%;
+            background-color: var(--color-grey100);
+        }
+    }
+}
+
+.divContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    span{
+        color: var(--color-primary);
+        font-family: var(--font-primary);
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+}

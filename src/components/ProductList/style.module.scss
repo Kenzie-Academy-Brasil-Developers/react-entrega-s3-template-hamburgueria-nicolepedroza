@@ -1,6 +1,14 @@
 .container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-items: center;
     gap: 3.5rem;
+}
+
+@media (max-width: 600px){
+    .container{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+
+    }
 }
