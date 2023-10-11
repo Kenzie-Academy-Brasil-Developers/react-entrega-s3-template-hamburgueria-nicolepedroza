@@ -1,5 +1,5 @@
-import styles from './style.module.scss'
-import { ProductCard } from "./ProductCard";
+import styles from "./style.module.scss"
+import { ProductCard } from "./ProductCard"
 
 export const ProductList = ({ productList, cartList, setCartList, setIsOpen }) => {
    return (

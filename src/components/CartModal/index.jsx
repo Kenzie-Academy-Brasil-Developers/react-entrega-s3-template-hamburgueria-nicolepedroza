@@ -1,8 +1,8 @@
-import { MdClose } from "react-icons/md";
-import { CartItemCard } from "./CartItemCard";
-import styles from './style.module.scss'
-import {toast} from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
+import { MdClose } from "react-icons/md"
+import { CartItemCard } from "./CartItemCard"
+import styles from "./style.module.scss"
+import {toast} from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 export const CartModal = ({ cartList, setCartList, setIsOpen }) => {
    console.log(cartList)
